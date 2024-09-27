@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "serverafk",
+  "version": "${version}",
+  "name": "ServerAFK",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/serverafk/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "me.mrnavastar.serverafk.ServerAFK"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
